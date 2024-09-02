@@ -1,0 +1,29 @@
+#Atribuição simples
+saldo = 500
+print(saldo)
+
+---------------------
+#Atribuição com adição
+saldo = 500
+saldo +=200
+
+print(saldo)
+-------------------------
+#Atribuição com subtração
+saldo = 500
+saldo -=200
+
+print(saldo)
+-----------------------------
+#Atribuição com multiplicação
+saldo = 500
+saldo *=2
+
+print(saldo)
+---------------------------
+#Atribuição com Divisão
+saldo = 500
+saldo /=2
+
+print(saldo)
+-------------------
