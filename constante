@@ -1,0 +1,5 @@
+#constante
+
+ESTADOS_BRASIL = ["SP", "RJ", "SC"]
+
+print(ESTADOS_BRASIL)
