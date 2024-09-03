@@ -1,0 +1,24 @@
+#Operadores de identide is / is not
+curso = "Curso de Python"
+nome_curso = curso
+saldo, limite = 200, 200
+
+#para saber se oculpa a mesma região de memoria
+print(curso is nome_curso)
+#True
+
+print(curso is not nome_curso)
+#False
+----------------------------
+#Operadores de identide
+curso = "Curso de Python"
+
+saldo, limite = 200, 200
+
+#para saber se oculpa a mesma região de memoria
+
+print(curso is saldo)
+# R:false
+
+print(curso is not saldo)
+# R: True
