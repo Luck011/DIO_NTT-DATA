@@ -1,0 +1,10 @@
+#Operadores de associação in / not in para saber se esta dentro ou não da variavel
+
+curso = "Curso de python"
+frutas = ["Laranja", "Uva", "Limão"]
+saques = [1500, 100]
+
+print("python" in curso)
+print("python" not in curso)
+print("Laranja" in curso)
+print(100 in saques)
