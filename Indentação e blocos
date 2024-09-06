@@ -1,0 +1,29 @@
+#Caso saque acima de 500 vai mostrar apenas o ultimo print que esta dentra da função mais fora do if
+#Caso saque abaixo ou igual 500 vai mostrar todos os prints
+
+#Metodo sacar
+def sacar(valor):
+    saldo = 500
+
+    if saldo >= valor:
+        print("Valor sacado")
+        print("Retire seu dinheiro na boca do caixa")
+              
+    print("Obrigado por ser nosso cliente, tenha um bom dia!")
+
+sacar(600)
+-------------------------------------------
+def sacar(valor):
+    saldo = 500
+
+    if saldo >= valor:
+        print("Valor sacado")
+        print("Retire seu dinheiro na boca do caixa")
+              
+    print("Obrigado por ser nosso cliente, tenha um bom dia!")
+
+def depositar(valor):
+    saldo = 500
+    saldo += valor
+
+sacar(700)
