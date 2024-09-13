@@ -1,0 +1,99 @@
+
+a = int(input("Informe um numero"))
+        
+a += 1
+a += 1
+
+print(a)
+--------------------
+#Estrutura de repetição for
+
+texto = input("Escreva algo:\n")
+VOGAIS = "AEIOU"
+
+for letra in texto:
+    if letra.upper() in VOGAIS:
+        print(letra, end="")
+
+print() #adiciona uma quebra de linha
+----------------------------------
+#Estrutura de repetição com else
+
+texto = input("Escreva algo:\n")
+VOGAIS = "AEIOU"
+
+for letra in texto:
+    if letra.upper() in VOGAIS:
+        print(letra, end="")
+else:
+    print() #adiciona uma quebra de linha
+    print("Executa no final do laço")
+-----------------------------------
+#Range, de 5 em 5,  (range) = gera uma sequência de números
+
+for numero in range(0, 51, 5):
+    print(numero, end=" ")
+-------------------------
+#utilizando break no for
+
+	for numero in range(100):
+    if numero == 15:
+        break
+    print(numero, end=" ")
+------------------------
+#continue pula o 15, pula a execução
+
+for numero in range(100):
+    if numero == 15:
+        continue
+    print(numero, end=" ")
+
+--------------------------------
+#while diferente do if ele vai executar sempre que a condição for atendida.
+
+opcao = -1
+
+while opcao != 0:
+    opcao = int(input("[1] Sacar \n[2] Extrato \n[0] Sair \n: "))
+
+    if opcao == 1:
+        print("Sacando...")
+    elif opcao == 2:
+        print("Exibindo extrato...")
+-----------------------------------------
+#if funciona uma unica vez
+
+opcao = -1
+
+if opcao != 0:
+    opcao = int(input("[1] Sacar \n[2] Extrato \n[0] Sair \n: "))
+
+    if opcao == 1:
+        print("Sacando...")
+    elif opcao == 2:
+        print("Exibindo extrato...")
+		
+-------------------------------
+opcao = -1
+
+while opcao != 0:
+    opcao = int(input("[1] Sacar \n[2] Extrato \n[0] Sair \n: "))
+
+    if opcao == 1:
+        print("Sacando...")
+    elif opcao == 2:
+        print("Exibindo extrato...")
+
+    else:
+        print("Obrigado por utilizar nosso sistema")
+-------------------------------
+#Utilizando break para parar a repetição
+
+while True:
+    numero =int(input("informe um número: "))
+
+    if numero == 10:
+        break
+    print(numero)
+	
+------------------------------------
