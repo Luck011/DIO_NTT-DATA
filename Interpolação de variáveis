@@ -1,0 +1,20 @@
+nome = "Lucas"
+idade = 26
+profissao = "Programador"
+linguagem = "Python"
+saldo = 45.435
+
+#Não muito utilizavel
+print("nome: %s idade: %d" % (nome, idade))
+
+print("nome: {} idade: {}".format(nome, idade))
+
+print("nome: {0} idade: {1}".format(nome, idade))
+
+#repeti a variavel
+print("nome: {0} {0} idade: {1}".format(nome, idade))
+
+#f de metodo format
+print(f"nome {nome} idade {idade}")
+
+print(f"nome: {nome} idade: {idade} Saldo {saldo:10.2f}")
