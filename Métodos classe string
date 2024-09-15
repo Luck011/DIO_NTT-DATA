@@ -1,0 +1,22 @@
+#Metodo center
+
+curso = "Python"
+print(curso.center(10, "#"))
+--------
+
+texto = "Olá Mundo"
+print(texto.center(20, " "))
+print(texto.center(20, "-"))
+----------------------
+#Metodo join
+
+curso = "Python"
+print(".".join(curso))
+print("-".join(curso))
+-----------------
+nome = "lucas"
+
+print(nome.upper())
+print(nome.lower())
+print(nome.title())
+-------------------
