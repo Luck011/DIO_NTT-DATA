@@ -1,0 +1,18 @@
+def exibir_mensagem():
+    print("Ola mundo!")
+
+def exibir_mensagem_2(nome):
+    print(f"Seja bem vindo!{nome}")
+
+def exibir_mensagem_3(nome="Anônimo"):
+    print(f"Ola mundo!{nome}")
+
+#Chamada da função, se não chama não aparece quando executar.
+exibir_mensagem()
+
+#nessa chamada é necessario incluir o argumento que fica entre ()
+exibir_mensagem_2(nome="Lucas")
+
+#Essa posso chamar sem ou com argumento
+exibir_mensagem_3()
+exibir_mensagem_3(nome="Sheila")
