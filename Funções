@@ -16,3 +16,8 @@ exibir_mensagem_2(nome="Lucas")
 #Essa posso chamar sem ou com argumento
 exibir_mensagem_3()
 exibir_mensagem_3(nome="Sheila")
+------------------------------------------------------
+def salvar_carro(marca, modelo, ano, placa):
+    print(f"carro inserido com sucesso! {marca}/{modelo}/{ano}/{placa}")
+
+salvar_carro("Celta", "Chevrolet", "2004", "DSA0000")
